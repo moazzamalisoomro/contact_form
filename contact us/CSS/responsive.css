@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contactus_writen_content h2{
+    font-size: 35px;
+}
+
+.contactus_writen_content p{
+    font-size: 12px;
+}
+
+.contactus_form{
+    padding: 40px 15px;
+    /* padding-bottom: 0; */
+    /* margin: 0; */
+}
+
+
+@media (min-width: 768px) {
+    .contactus_form{
+        padding: 50px;
+    }
+
+    .contactus_form .btn{
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: 18px;
+        color: #F4F6FC;
+        padding: 12px 3em;
+        background: #282938;
+        border-radius: 30px;
+        margin-top: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    background: green;
+}
+
+@media (min-width: 768px) {
+    .box{
+        background: blue;
+    }
+}
+
+/* 1400 xxl */
+/* 1200 xl */
+/* 992 lg */
+/* 786 md */
+/* 576 sm */
+/* < 576 xs */

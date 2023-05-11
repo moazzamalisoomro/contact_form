@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* navbar begins */
+
+
+
+/* navbar ends */
+
+
+
+/* contact us begins */
+
+.contactus_writen_content{
+    text-align: center;
+    color: #282938;
+}
+
+.contactus_writen_content h2{
+    color: #282938;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.contactus_writen_content p{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 10px;
+    margin-top: 1.5em;
+    opacity: 0.7;
+}
+
+.contactus_form{
+    background-color: #EBF5FE;
+    border-radius: 15px;
+}
+
+.contactus_form label {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 6px 0;
+}
+
+
+
+.contactus_form .form-control {
+    padding: 14px 20px !important;
+    border: 1px solid #d1d1d1 !important;
+    border-radius: 8px !important;
+    resize: none;
+    font-size: 15px !important;
+    background: transparent !important;
+}
+
+.contactus_form .btn{
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 18px;
+    color: #F4F6FC;
+    padding: 12px 2em;
+    background: #282938;
+    border-radius: 30px;
+    margin-top: 1em;
+    transition: color 0.30s;
+}
+
+.contactus_form .btn:hover{
+    border: 1px solid #282938;
+    background: transparent;
+    color: #282938;
+}
+
+/* form styling ends */
+
+/* contact us ends */
